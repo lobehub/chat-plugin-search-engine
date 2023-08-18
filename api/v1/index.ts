@@ -1,4 +1,4 @@
-import fetchWeather from './_utils';
+import runner from './_utils';
 
 export const config = {
   runtime: 'edge',
@@ -9,7 +9,7 @@ export default async (req: Request) => {
 
   const args = await req.json();
 
-  const result = await fetchWeather(args);
+  const result = await runner(args);
 
   return new Response(JSON.stringify(result));
 };
