@@ -1,0 +1,48 @@
+{
+  "name": "chat-plugin-real-time-weather",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lobe Chat Plugin Market",
+  "repository": "https://github.com/lobehub/chat-plugin-real-time-weather.git",
+  "scripts": {
+    "ci": "npm run lint && npm run type-check",
+    "lint": "npm run lint:js && npm run lint:prettier",
+    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
+    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx ./api",
+    "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx ./api",
+    "lint:prettier": "prettier --check \"api/**/*\" --end-of-line auto",
+    "prepare": "husky install",
+    "prettier": "prettier -c --write \"api/**/*\"",
+    "release": "semantic-release",
+    "start": "vercel dev",
+    "test": "vitest --passWithNoTests",
+    "test:coverage": "vitest --coverage  --passWithNoTests",
+    "type-check": "tsc --noEmit"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "devDependencies": {
+    "@lobehub/lint": "latest",
+    "@vercel/node": "^2",
+    "@vitest/coverage-v8": "latest",
+    "commitlint": "^17",
+    "cross-env": "^7",
+    "eslint": "^8",
+    "husky": "^8",
+    "lint-staged": "^13",
+    "prettier": "^2",
+    "semantic-release": "^21",
+    "typescript": "^5",
+    "vercel": "^31.2.3",
+    "vitest": "latest"
+  }
+}
