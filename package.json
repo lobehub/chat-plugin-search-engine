@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Lobe Chat Plugin Market",
-  "repository": "https://github.com/lobehub/chat-plugin-real-time-weather.git",
+  "repository": "https://github.com/lobehub/chat-plugin-search-engine.git",
   "scripts": {
     "ci": "npm run lint && npm run type-check",
     "lint": "npm run lint:js && npm run lint:prettier",
@@ -30,6 +30,9 @@
     "last 2 versions",
     "not ie <= 10"
   ],
+  "dependencies": {
+    "query-string": "^8"
+  },
   "devDependencies": {
     "@lobehub/lint": "latest",
     "@vercel/node": "^2",
