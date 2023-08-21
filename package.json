@@ -20,6 +20,7 @@
     "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx ./api",
     "lint:prettier": "prettier --check \"api/**/*\" --end-of-line auto",
     "prepare": "husky install",
+    "prepublishOnly": "npm run doctor && npm run build",
     "prettier": "prettier -c --write \"api/**/*\"",
     "release": "semantic-release",
     "start": "vercel dev",
