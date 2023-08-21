@@ -1,4 +1,4 @@
-import { OrganicResults, Result } from '../../type';
+import { OrganicResults, Result } from '../../src/type';
 
 const BASE_URL = 'https://serpapi.com/search';
 

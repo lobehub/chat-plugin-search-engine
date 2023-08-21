@@ -1,11 +1,19 @@
 {
   "name": "@lobehub/chat-plugin-search-engine",
   "version": "1.0.0",
-  "private": true,
-  "description": "Lobe Chat Plugin Market",
+  "description": "Lobe Chat Search Engine Plugin",
   "repository": "https://github.com/lobehub/chat-plugin-search-engine.git",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "father build",
     "ci": "npm run lint && npm run type-check",
+    "dev": "father dev",
+    "docs:build": "dumi build",
+    "docs:dev": "PORT=8110 dumi dev",
+    "doctor": "father doctor",
     "lint": "npm run lint:js && npm run lint:prettier",
     "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
     "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx ./api",
@@ -31,21 +39,37 @@
     "not ie <= 10"
   ],
   "dependencies": {
-    "query-string": "^8"
+    "@lobehub/chat-plugin-sdk": "^1",
+    "antd-style": "^3",
+    "query-string": "^8",
+    "react-layout-kit": "^1"
   },
   "devDependencies": {
     "@lobehub/lint": "latest",
+    "@lobehub/ui": "latest",
     "@vercel/node": "^2",
     "@vitest/coverage-v8": "latest",
+    "babel-plugin-antd-style": "^1.0.4",
     "commitlint": "^17",
     "cross-env": "^7",
+    "dumi": "^2",
+    "dumi-theme-lobehub": "latest",
     "eslint": "^8",
+    "father": "^4.3.1",
     "husky": "^8",
     "lint-staged": "^13",
+    "lucide-react": "latest",
     "prettier": "^2",
     "semantic-release": "^21",
     "typescript": "^5",
-    "vercel": "^31.2.3",
+    "vercel": "^28",
     "vitest": "latest"
+  },
+  "peerDependencies": {
+    "react": "^18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
