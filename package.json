@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/chat-plugin-search-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lobe Chat Search Engine Plugin",
   "repository": "https://github.com/lobehub/chat-plugin-search-engine.git",
   "main": "dist/index.js",
