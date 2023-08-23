@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;1.1.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.0.1...v1.1.0)
+
+<sup>Released on **2023-08-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Add api field.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add api field ([06b5649](https://github.com/lobehub/chat-plugin-search-engine/commit/06b5649))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.0.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.0.0...v1.0.1)
 
 <sup>Released on **2023-08-21**</sup>
