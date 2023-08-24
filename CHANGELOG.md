@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;1.2.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.1.1...v1.2.0)
+
+<sup>Released on **2023-08-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Add SERPAPI_API_KEY settings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add SERPAPI_API_KEY settings ([eade49c](https://github.com/lobehub/chat-plugin-search-engine/commit/eade49c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.1.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.1.0...v1.1.1)
 
 <sup>Released on **2023-08-24**</sup>
