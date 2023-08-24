@@ -29,7 +29,8 @@
       "SERPAPI_API_KEY": {
         "title": "SerpAPI API Key",
         "description": "please fill SerpAPI API Key to use search engine. [Learn more](https://github.com/lobehub/chat-plugin-search-engine)",
-        "type": "string"
+        "type": "string",
+        "format": "password"
       }
     }
   }
