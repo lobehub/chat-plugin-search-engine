@@ -28,7 +28,7 @@ const themeConfig = {
 export default defineConfig({
   extraBabelPlugins: ['babel-plugin-antd-style'],
   favicons: [
-    'https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/rainbow.webp',
+    'https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/magnifying-glass-tilted-left.webp',
   ],
   // locales: [{ id: 'en-US', name: 'English' }],
   mfsu: {},
