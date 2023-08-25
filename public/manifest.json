@@ -11,13 +11,13 @@
       "description": "查询搜索引擎获取信息",
       "parameters": {
         "properties": {
-          "keywords": {
-            "description": "关键词",
+          "query": {
+            "description": "搜索的文本内容",
             "type": "string"
           }
         },
         "required": [
-          "keywords"
+          "query"
         ],
         "type": "object"
       }
@@ -25,6 +25,9 @@
   ],
   "settings": {
     "type": "object",
+    "required": [
+      "SERPAPI_API_KEY"
+    ],
     "properties": {
       "SERPAPI_API_KEY": {
         "title": "SerpAPI API Key",

@@ -4,7 +4,7 @@ const BASE_URL = 'https://serpapi.com/search';
 
 const API_KEY = process.env.SERPAI_API_KEY;
 
-const fetchResult = async ({ keywords }: { keywords: string }): Promise<Result> => {
+const fetchResult = async ({ query: keywords }: { query: string }): Promise<Result> => {
   const params = {
     api_key: API_KEY,
     engine: 'google',

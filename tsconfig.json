@@ -19,7 +19,7 @@
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "@/*": ["src/*"],
-      "@lobehub/chat-plugin-realtime-weather": ["src"]
+      "@lobehub/chat-plugin-search-engine": ["src"]
     }
   },
   "include": ["docs", "api", ".dumi/**/*", ".dumirc.ts", "src"]
