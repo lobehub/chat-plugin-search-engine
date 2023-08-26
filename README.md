@@ -8,7 +8,7 @@
 
 <h1>Search Engine<br/><sup>LobeChat Plugin</sup></h1>
 
-todo describiton ...
+Search Engine using SerpApi
 
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
