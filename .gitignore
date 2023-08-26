@@ -43,3 +43,5 @@ build
 .vercel
 .dumi/tmp
 .dumi/tmp-*
+public/dist
+docs-dist

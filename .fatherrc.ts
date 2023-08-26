@@ -2,7 +2,7 @@ import { defineConfig } from 'father';
 
 export default defineConfig({
   umd: {
-    output: { path: 'dist', filename: 'index' },
+    output: { path: 'public/dist', filename: 'index' },
     externals: {
       'react': 'React',
       'react-dom': 'ReactDOM',
