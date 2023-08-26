@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version&nbsp;1.3.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.2.1...v1.3.0)
+
+<sup>Released on **2023-08-26**</sup>
+
+#### ✨ Features
+
+- **misc**: 增加插件展示文档.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: 增加插件展示文档 ([957418f](https://github.com/lobehub/chat-plugin-search-engine/commit/957418f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.2.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.2.0...v1.2.1)
 
 <sup>Released on **2023-08-24**</sup>
