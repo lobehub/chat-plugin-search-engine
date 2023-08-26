@@ -40,6 +40,7 @@
   "dependencies": {
     "@lobehub/chat-plugin-sdk": "^1",
     "antd-style": "^3",
+    "polished": "^4.2.2",
     "query-string": "^8",
     "react-layout-kit": "^1"
   },
