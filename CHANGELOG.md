@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.3.2](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.1...v1.3.2)
+
+<sup>Released on **2023-08-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Change master to main.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Change master to main ([c94a3c2](https://github.com/lobehub/chat-plugin-search-engine/commit/c94a3c2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.3.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.0...v1.3.1)
 
 <sup>Released on **2023-08-26**</sup>
