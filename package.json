@@ -41,7 +41,6 @@
     "@lobehub/chat-plugin-sdk": "^1",
     "antd-style": "^3",
     "query-string": "^8",
-    "react": "^18",
     "react-layout-kit": "^1"
   },
   "devDependencies": {
@@ -60,9 +59,14 @@
     "lint-staged": "^13",
     "lucide-react": "latest",
     "prettier": "^3",
+    "react": "^18",
+    "react-dom": "^18",
     "semantic-release": "^21",
     "typescript": "^5",
     "vercel": "^28",
     "vitest": "latest"
+  },
+  "peerDependencies": {
+    "react": "^18"
   }
 }
