@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version&nbsp;1.4.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.2...v1.4.0)
+
+<sup>Released on **2023-08-28**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: 移除默认的 api key 配置，添加服务端校验逻辑.
+
+#### ✨ Features
+
+- **misc**: 新增 Grid 模式.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: 移除默认的 api key 配置，添加服务端校验逻辑 ([7713115](https://github.com/lobehub/chat-plugin-search-engine/commit/7713115))
+
+#### What's improved
+
+- **misc**: 新增 Grid 模式 ([dd5e8a2](https://github.com/lobehub/chat-plugin-search-engine/commit/dd5e8a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.3.2](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.1...v1.3.2)
 
 <sup>Released on **2023-08-26**</sup>
