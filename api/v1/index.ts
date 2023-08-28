@@ -1,3 +1,10 @@
+import {
+  PluginErrorType,
+  createErrorResponse,
+  getPluginSettingsStringFromRequest,
+} from '@lobehub/chat-plugin-sdk';
+
+import { Settings } from './_types';
 import runner from './_utils';
 
 export const config = {
@@ -5,11 +12,22 @@ export const config = {
 };
 
 export default async (req: Request) => {
-  if (req.method !== 'POST') return new Response('Method Not Allowed', { status: 405 });
+  if (req.method !== 'POST') return createErrorResponse(PluginErrorType.MethodNotAllowed);
 
-  const args = await req.json();
+  const settings = getPluginSettingsStringFromRequest<Settings>(req);
 
-  const result = await runner(args);
+  if (!settings)
+    return createErrorResponse(PluginErrorType.PluginSettingsInvalid, {
+      message: 'Plugin settings not found.',
+    });
 
-  return new Response(JSON.stringify(result));
+  try {
+    const args = await req.json();
+
+    const result = await runner(args, settings);
+
+    return new Response(JSON.stringify(result));
+  } catch (error) {
+    return createErrorResponse(PluginErrorType.PluginServerError, error as object);
+  }
 };

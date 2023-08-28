@@ -21,7 +21,7 @@
     "prepublishOnly": "npm run doctor && npm run build",
     "prettier": "prettier -c --write \"api/**/*\"",
     "release": "semantic-release",
-    "start": "vercel dev",
+    "start": "vercel dev --listen 3400",
     "test": "vitest --passWithNoTests",
     "test:coverage": "vitest --coverage  --passWithNoTests",
     "type-check": "tsc --noEmit"

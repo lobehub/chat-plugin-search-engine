@@ -9,6 +9,7 @@ export interface SearchItem {
   source?: string;
   title: string;
 }
+
 export type Result = SearchItem[];
 
 interface OrganicResult {
