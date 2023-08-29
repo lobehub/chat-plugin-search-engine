@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.4.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.0...v1.4.1)
+
+<sup>Released on **2023-08-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add gateway.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add gateway ([b91c465](https://github.com/lobehub/chat-plugin-search-engine/commit/b91c465))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version&nbsp;1.4.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.2...v1.4.0)
 
 <sup>Released on **2023-08-28**</sup>
