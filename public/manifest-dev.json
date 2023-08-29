@@ -16,6 +16,7 @@
       }
     }
   ],
+  "gateway": "http://localhost:3400/api/gateway",
   "identifier": "searchEngine-dev",
   "settings": {
     "type": "object",
