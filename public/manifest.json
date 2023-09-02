@@ -16,7 +16,7 @@
       }
     }
   ],
-  "identifier": "searchEngine",
+  "identifier": "search-engine",
   "settings": {
     "type": "object",
     "required": ["SERPAPI_API_KEY"],
