@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.4.2](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.1...v1.4.2)
+
+<sup>Released on **2023-09-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: 修正 identifier 变更导致无法正常使用的问题.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: 修正 identifier 变更导致无法正常使用的问题 ([38b1177](https://github.com/lobehub/chat-plugin-search-engine/commit/38b1177))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.4.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.0...v1.4.1)
 
 <sup>Released on **2023-08-29**</sup>
