@@ -32,7 +32,8 @@
     }
   },
   "ui": {
-    "url": "https://search-engine.chat-plugin.lobehub.com/dist/index.js"
+    "url": "https://search-engine.chat-plugin.lobehub.com/dist/index.js",
+    "mode": "module"
   },
   "version": "1"
 }
