@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.4.3](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.2...v1.4.3)
+
+<sup>Released on **2023-09-03**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: 调整 search Engine 的加载模式为 module.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: 调整 search Engine 的加载模式为 module ([4353e6c](https://github.com/lobehub/chat-plugin-search-engine/commit/4353e6c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.4.2](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.1...v1.4.2)
 
 <sup>Released on **2023-09-02**</sup>
