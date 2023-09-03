@@ -33,7 +33,8 @@
     }
   },
   "ui": {
-    "url": "http://localhost:3400/dist/index.js"
+    "url": "http://localhost:3400/dist/index.js",
+    "mode": "module"
   },
   "version": "1"
 }
