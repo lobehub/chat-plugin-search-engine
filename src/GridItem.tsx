@@ -1,5 +1,4 @@
 import { createStyles } from 'antd-style';
-import { rgba } from 'polished';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
@@ -11,14 +10,7 @@ const useStyles = createStyles(({ css, token, cx }) => {
     font-size: 16px;
   `;
   return {
-    container: css`
-      background: ${token.colorBgContainer};
-      border: 1px solid ${rgba(token.colorBorderSecondary, 0.5)};
-      border-radius: 8px;
-      :hover {
-        background: ${token.colorFillSecondary};
-      }
-    `,
+    container: css``,
     desc: css`
       color: ${token.colorTextTertiary};
     `,
@@ -46,13 +38,7 @@ const GridItem = memo<SearchItem>(({ content, date, link, favicon, title, source
 
   return (
     <a className={styles.link} href={link!} rel="noreferrer" target={'_blank'}>
-      <Flexbox
-        className={styles.container}
-        distribution={'space-between'}
-        flex={1}
-        gap={12}
-        padding={12}
-      >
+      <Flexbox distribution={'space-between'} flex={1} gap={12} padding={12}>
         <Flexbox>
           <Flexbox>
             <Flexbox className={styles.title}>{title}</Flexbox>
