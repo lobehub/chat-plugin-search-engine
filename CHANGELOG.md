@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.4.5](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.4...v1.4.5)
+
+<sup>Released on **2023-09-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: 兼容移动端.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: 兼容移动端 ([6389232](https://github.com/lobehub/chat-plugin-search-engine/commit/6389232))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.4.4](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.3...v1.4.4)
 
 <sup>Released on **2023-09-03**</sup>
