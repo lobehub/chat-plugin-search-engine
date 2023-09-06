@@ -6,7 +6,7 @@ import { Flexbox } from 'react-layout-kit';
 import GridItem from './GridItem';
 import { Result } from './type';
 
-const useStyles = createStyles(({ css }) => {
+const useStyles = createStyles(({ css, responsive }) => {
   return {
     container: css`
       overflow: scroll;
@@ -16,6 +16,11 @@ const useStyles = createStyles(({ css }) => {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 12px;
+
+      ${responsive.mobile} {
+        display: flex;
+        flex-direction: column;
+      }
     `,
   };
 });

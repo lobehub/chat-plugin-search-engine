@@ -1,7 +1,7 @@
 import {
   PluginErrorType,
   createErrorResponse,
-  getPluginSettingsStringFromRequest,
+  getPluginSettingsFromRequest,
 } from '@lobehub/chat-plugin-sdk';
 
 import { Settings } from './_types';
@@ -14,7 +14,7 @@ export const config = {
 export default async (req: Request) => {
   if (req.method !== 'POST') return createErrorResponse(PluginErrorType.MethodNotAllowed);
 
-  const settings = getPluginSettingsStringFromRequest<Settings>(req);
+  const settings = getPluginSettingsFromRequest<Settings>(req);
 
   if (!settings)
     return createErrorResponse(PluginErrorType.PluginSettingsInvalid, {
