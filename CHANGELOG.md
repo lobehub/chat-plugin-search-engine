@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.4.7](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.6...v1.4.7)
+
+<sup>Released on **2023-09-06**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: 兼容 SDK 导出变更.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: 兼容 SDK 导出变更 ([76652b9](https://github.com/lobehub/chat-plugin-search-engine/commit/76652b9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.4.6](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.5...v1.4.6)
 
 <sup>Released on **2023-09-06**</sup>
