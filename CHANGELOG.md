@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.4.6](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.5...v1.4.6)
+
+<sup>Released on **2023-09-06**</sup>
+
+#### 💄 Styles
+
+- **misc**: 增加 hoverable 卡片样式.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: 增加 hoverable 卡片样式 ([946794e](https://github.com/lobehub/chat-plugin-search-engine/commit/946794e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.4.5](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.4...v1.4.5)
 
 <sup>Released on **2023-09-06**</sup>
