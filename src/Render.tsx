@@ -1,4 +1,4 @@
-import { PluginRenderProps } from '@lobehub/chat-plugin-sdk';
+import { PluginRenderProps } from '@lobehub/chat-plugin-sdk/client';
 import { memo } from 'react';
 
 import GridItem from './GridItem';
