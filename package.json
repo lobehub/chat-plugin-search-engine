@@ -58,6 +58,7 @@
     "react-layout-kit": "^1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17",
     "@lobehub/lint": "latest",
     "@lobehub/ui": "latest",
     "@types/react": "^18",
