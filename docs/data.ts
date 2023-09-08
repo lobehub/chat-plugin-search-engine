@@ -90,12 +90,4 @@ export const data: Result = [
     source: 'top-downsolutions.com',
     title: '3-lobe hub and shaft for 87-92 Firebird headlight motor',
   },
-  {
-    content:
-      'As we said in Chapter 9 (“Anterior temporal lobe hub”) “members of a semantic category need not share any features at all”21.',
-    displayed_link: 'https://books.google.com.hk › books',
-    link: 'https://books.google.com.hk/books?id=rcpLDQAAQBAJ&pg=PA390&lpg=PA390&dq=LobeHub&source=bl&ots=5oUF73hoOC&sig=ACfU3U3U-aD-xaOKc9zNrMCv3bRP-tqNBw&hl=zh-CN&sa=X&ved=2ahUKEwiuvNPQifeAAxVimYkEHbV8B_wQ6AF6BAggEAM',
-    source: 'google.com.hk',
-    title: 'The Evolution of Memory Systems: Ancestors, Anatomy, and ...',
-  },
 ];

@@ -2,12 +2,11 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES5",
-    "lib": ["esnext", "DOM"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "sourceMap": true,
     "skipDefaultLibCheck": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
-    "types": ["node"],
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
@@ -19,8 +18,10 @@
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "@/*": ["src/*"],
-      "@lobehub/chat-plugin-search-engine": ["src"]
-    }
+      "@lobehub/chat-plugin-search-engine": ["src"],
+      "@lobehub/chat-plugin-search-engine/": ["src/*"]
+    },
+    "types": ["vitest/globals"]
   },
-  "include": ["docs", "api", ".dumi/**/*", ".dumirc.ts", "src"]
+  "include": ["src", "docs", "api", ".dumi/**/*", ".dumirc.ts", "*.ts"]
 }

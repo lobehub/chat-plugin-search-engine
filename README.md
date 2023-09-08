@@ -8,7 +8,7 @@
 
 <h1>Search Engine<br/><sup>LobeChat Plugin</sup></h1>
 
-Search Engine using SerpApi
+This plugin allows for the use of the SerpApi search engine
 
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
@@ -33,42 +33,17 @@ Search Engine using SerpApi
 
 #### TOC
 
-- [📦 Installation](#-installation)
-
 - [🤯 Usage](#-usage)
-
 - [⌨️ Local Development](#️-local-development)
-
 - [🤝 Contributing](#-contributing)
 
 ####
 
 </details>
 
-## 📦 Installation
-
-TOBE DONE
-
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
 ## 🤯 Usage
 
-### Compile with NextJS
-
-by work correct with nextjs ssr, add `transpilePackages: ['@lobehub/chat-plugin-search-engine']` to `next.config.js`. For example:
-
-```js
-// next.config.js
-const nextConfig = {
-  // ...other config
-
-  transpilePackages: ['@lobehub/chat-plugin-search-engine'],
-};
-```
+This is a function calling plugin for [Lobe Chat](https://github.com/lobehub/lobe-chat), you can install it in plugin setting page.
 
 <div align="right">
 
@@ -128,56 +103,26 @@ $ pnpm start
 Copyright © 2023 [LobeHub][profile-url]. <br />
 This project is [MIT](./LICENSE) licensed.
 
-<!-- PLUGIN GROUP -->
-
-[plugin-shield]: https://img.shields.io/badge/%F0%9F%A4%AF_LobeChat-plugin-cyan
-[plugin-url]: https://github.com/lobehub/lobe-chat-plugins
-
 <!-- LINK GROUP -->
 
-[profile-url]: https://github.com/lobehub
-[gitpod-url]: https://gitpod.io/#https://github.com/lobehub/chat-plugin-search-engine
-
-<!-- SHIELD LINK GROUP -->
-
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
-<!-- release -->
-
-[release-shield]: https://img.shields.io/npm/v/@lobehub/chat-plugin-search-engine?label=%F0%9F%A4%AF%20NPM
-[release-url]: https://www.npmjs.com/package/@lobehub/chat-plugin-search-engine
-
-<!-- releaseDate -->
-
-[release-date-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-search-engine?style=flat
-[release-date-url]: https://github.com/lobehub/chat-plugin-search-engine/releases
-
-<!-- ciTest -->
-
-[ci-test-shield]: https://github.com/lobehub/chat-plugin-search-engine/actions/workflows/test.yml/badge.svg
-[ci-test-url]: https://github.com/lobehub/chat-plugin-search-engine/actions/workflows/test.yml
-
-<!-- ciRelease -->
-
 [ci-release-shield]: https://github.com/lobehub/chat-plugin-search-engine/actions/workflows/release.yml/badge.svg
 [ci-release-url]: https://github.com/lobehub/chat-plugin-search-engine/actions/workflows/release.yml
-
-<!-- contributors -->
-
+[ci-test-shield]: https://github.com/lobehub/chat-plugin-search-engine/actions/workflows/test.yml/badge.svg
+[ci-test-url]: https://github.com/lobehub/chat-plugin-search-engine/actions/workflows/test.yml
 [contributors-shield]: https://img.shields.io/github/contributors/lobehub/chat-plugin-search-engine.svg?style=flat
 [contributors-url]: https://github.com/lobehub/chat-plugin-search-engine/graphs/contributors
-
-<!-- forks -->
-
 [forks-shield]: https://img.shields.io/github/forks/lobehub/chat-plugin-search-engine.svg?style=flat
 [forks-url]: https://github.com/lobehub/chat-plugin-search-engine/network/members
-
-<!-- stargazers -->
-
-[stargazers-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-search-engine.svg?style=flat
-[stargazers-url]: https://github.com/lobehub/chat-plugin-search-engine/stargazers
-
-<!-- issues -->
-
+[gitpod-url]: https://gitpod.io/#https://github.com/lobehub/chat-plugin-search-engine
 [issues-shield]: https://img.shields.io/github/issues/lobehub/chat-plugin-search-engine.svg?style=flat
 [issues-url]: https://github.com/lobehub/chat-plugin-search-engine/issues/new/choose
+[plugin-shield]: https://img.shields.io/badge/%F0%9F%A4%AF_LobeChat-plugin-cyan
+[plugin-url]: https://github.com/lobehub/lobe-chat-plugins
+[profile-url]: https://github.com/lobehub
+[release-date-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-search-engine?style=flat
+[release-date-url]: https://github.com/lobehub/chat-plugin-search-engine/releases
+[release-shield]: https://img.shields.io/npm/v/@lobehub/chat-plugin-search-engine?label=%F0%9F%A4%AF%20NPM
+[release-url]: https://www.npmjs.com/package/@lobehub/chat-plugin-search-engine
+[stargazers-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-search-engine.svg?style=flat
+[stargazers-url]: https://github.com/lobehub/chat-plugin-search-engine/stargazers

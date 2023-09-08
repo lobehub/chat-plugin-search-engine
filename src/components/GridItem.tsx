@@ -1,37 +1,9 @@
-import { createStyles } from 'antd-style';
+import { Avatar } from '@lobehub/ui';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
-import { SearchItem } from './type';
-
-const useStyles = createStyles(({ css, token, cx }) => {
-  const title = css`
-    margin-top: 4px;
-    font-size: 16px;
-  `;
-  return {
-    container: css``,
-    desc: css`
-      color: ${token.colorTextTertiary};
-    `,
-    displayLink: css`
-      color: ${token.colorTextQuaternary};
-    `,
-    favicon: css`
-      border-radius: 50%;
-    `,
-    link: css`
-      &:hover {
-        .${cx(title)} {
-          text-decoration: underline;
-        }
-      }
-      display: flex;
-      flex: 1;
-    `,
-    title,
-  };
-});
+import { SearchItem } from '../type';
+import { useStyles } from './style';
 
 const GridItem = memo<SearchItem>(({ content, date, link, favicon, title, source }) => {
   const { styles } = useStyles();
@@ -46,14 +18,10 @@ const GridItem = memo<SearchItem>(({ content, date, link, favicon, title, source
           <Flexbox className={styles.desc}>{date ? `${date} - ${content}` : content}</Flexbox>
         </Flexbox>
         <Flexbox align={'center'} gap={8} horizontal>
-          {favicon && (
-            <img
-              alt={title || link}
-              className={styles.favicon}
-              height={16}
-              src={favicon}
-              width={16}
-            />
+          {favicon ? (
+            <Avatar size={16} src={favicon} />
+          ) : (
+            <Avatar avatar={title} background={'#000'} size={16} />
           )}
           <Flexbox>
             <Flexbox className={styles.desc}>{source}</Flexbox>
