@@ -15,7 +15,6 @@ This plugin allows for the use of the SerpApi search engine
 <!-- SHIELD GROUP -->
 
 [![plugin][plugin-shield]][plugin-url]
-[![release][release-shield]][release-url]
 [![releaseDate][release-date-shield]][release-date-url]
 [![ciTest][ci-test-shield]][ci-test-url]
 [![ciRelease][ci-release-shield]][ci-release-url] <br/>
@@ -122,7 +121,5 @@ This project is [MIT](./LICENSE) licensed.
 [profile-url]: https://github.com/lobehub
 [release-date-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-search-engine?style=flat
 [release-date-url]: https://github.com/lobehub/chat-plugin-search-engine/releases
-[release-shield]: https://img.shields.io/npm/v/@lobehub/chat-plugin-search-engine?label=%F0%9F%A4%AF%20NPM
-[release-url]: https://www.npmjs.com/package/@lobehub/chat-plugin-search-engine
 [stargazers-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-search-engine.svg?style=flat
 [stargazers-url]: https://github.com/lobehub/chat-plugin-search-engine/stargazers
