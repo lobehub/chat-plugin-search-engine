@@ -12,7 +12,7 @@
     "docs:build": "npm run build && dumi build",
     "docs:dev": "dumi dev",
     "doctor": "father doctor",
-    "lint": "eslint \"{src,api}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
     "lint:md": "remark . --quiet --frail --output",
     "lint:prettier": "prettier --check \"api/**/*\" --end-of-line auto",
     "lint:style": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
