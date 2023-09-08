@@ -2,6 +2,40 @@
 
 # Changelog
 
+### [Version 1.4.8](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.7...v1.4.8)
+
+<sup>Released on **2023-09-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ci, Fix ci.
+
+#### 💄 Styles
+
+- **misc**: Update grid card style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ci ([7d112d5](https://github.com/lobehub/chat-plugin-search-engine/commit/7d112d5))
+- **misc**: Fix ci ([d4ea671](https://github.com/lobehub/chat-plugin-search-engine/commit/d4ea671))
+
+#### Styles
+
+- **misc**: Update grid card style ([85e8101](https://github.com/lobehub/chat-plugin-search-engine/commit/85e8101))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.7](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.6...v1.4.7)
 
 <sup>Released on **2023-09-06**</sup>
