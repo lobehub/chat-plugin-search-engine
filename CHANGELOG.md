@@ -2,7 +2,32 @@
 
 # Changelog
 
-### [Version 1.4.8](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.7...v1.4.8)
+### [Version 1.4.9](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.8...v1.4.9)
+
+<sup>Released on **2023-10-12**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix a compatible error with nginx header.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix a compatible error with nginx header ([eb18fbc](https://github.com/lobehub/chat-plugin-search-engine/commit/eb18fbc))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.4.8](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.7...v1.4.8)
 
 <sup>Released on **2023-09-08**</sup>
 
@@ -36,7 +61,7 @@
 
 </div>
 
-### [Version 1.4.7](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.6...v1.4.7)
+### [Version 1.4.7](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.6...v1.4.7)
 
 <sup>Released on **2023-09-06**</sup>
 
@@ -61,7 +86,7 @@
 
 </div>
 
-### [Version 1.4.6](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.5...v1.4.6)
+### [Version 1.4.6](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.5...v1.4.6)
 
 <sup>Released on **2023-09-06**</sup>
 
@@ -86,7 +111,7 @@
 
 </div>
 
-### [Version 1.4.5](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.4...v1.4.5)
+### [Version 1.4.5](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.4...v1.4.5)
 
 <sup>Released on **2023-09-06**</sup>
 
@@ -111,7 +136,7 @@
 
 </div>
 
-### [Version 1.4.4](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.3...v1.4.4)
+### [Version 1.4.4](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.3...v1.4.4)
 
 <sup>Released on **2023-09-03**</sup>
 
@@ -136,7 +161,7 @@
 
 </div>
 
-### [Version 1.4.3](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.2...v1.4.3)
+### [Version 1.4.3](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.2...v1.4.3)
 
 <sup>Released on **2023-09-03**</sup>
 
@@ -161,7 +186,7 @@
 
 </div>
 
-### [Version 1.4.2](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.1...v1.4.2)
+### [Version 1.4.2](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.1...v1.4.2)
 
 <sup>Released on **2023-09-02**</sup>
 
@@ -186,7 +211,7 @@
 
 </div>
 
-### [Version 1.4.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.0...v1.4.1)
+### [Version 1.4.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.0...v1.4.1)
 
 <sup>Released on **2023-08-29**</sup>
 
@@ -211,7 +236,7 @@
 
 </div>
 
-## [Version 1.4.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.2...v1.4.0)
+## [Version 1.4.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.2...v1.4.0)
 
 <sup>Released on **2023-08-28**</sup>
 
@@ -244,7 +269,7 @@
 
 </div>
 
-### [Version 1.3.2](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.1...v1.3.2)
+### [Version 1.3.2](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.1...v1.3.2)
 
 <sup>Released on **2023-08-26**</sup>
 
@@ -269,7 +294,7 @@
 
 </div>
 
-### [Version 1.3.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.0...v1.3.1)
+### [Version 1.3.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.3.0...v1.3.1)
 
 <sup>Released on **2023-08-26**</sup>
 
@@ -294,7 +319,7 @@
 
 </div>
 
-## [Version 1.3.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.2.1...v1.3.0)
+## [Version 1.3.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.2.1...v1.3.0)
 
 <sup>Released on **2023-08-26**</sup>
 
@@ -319,7 +344,7 @@
 
 </div>
 
-### [Version 1.2.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.2.0...v1.2.1)
+### [Version 1.2.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.2.0...v1.2.1)
 
 <sup>Released on **2023-08-24**</sup>
 
@@ -344,7 +369,7 @@
 
 </div>
 
-## [Version 1.2.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.1.1...v1.2.0)
+## [Version 1.2.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.1.1...v1.2.0)
 
 <sup>Released on **2023-08-24**</sup>
 
@@ -369,7 +394,7 @@
 
 </div>
 
-### [Version 1.1.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.1.0...v1.1.1)
+### [Version 1.1.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.1.0...v1.1.1)
 
 <sup>Released on **2023-08-24**</sup>
 
@@ -394,7 +419,7 @@
 
 </div>
 
-## [Version 1.1.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.0.1...v1.1.0)
+## [Version 1.1.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.0.1...v1.1.0)
 
 <sup>Released on **2023-08-23**</sup>
 
@@ -419,7 +444,7 @@
 
 </div>
 
-### [Version 1.0.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.0.0...v1.0.1)
+### [Version 1.0.1](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.0.0...v1.0.1)
 
 <sup>Released on **2023-08-21**</sup>
 
@@ -444,7 +469,7 @@
 
 </div>
 
-## Version 1.0.0
+## Version 1.0.0
 
 <sup>Released on **2023-08-21**</sup>
 
