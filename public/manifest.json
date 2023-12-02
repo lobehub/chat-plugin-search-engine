@@ -1,4 +1,5 @@
 {
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
       "name": "query",
@@ -16,6 +17,9 @@
       }
     }
   ],
+  "author": "LobeHub",
+  "createAt": "2023-08-15",
+  "homepage": "https://github.com/lobehub/chat-plugin-search-engine",
   "identifier": "search-engine",
   "meta": {
     "avatar": "🔍",
