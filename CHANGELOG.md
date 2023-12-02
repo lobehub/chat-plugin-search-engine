@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.5.0](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.9...v1.5.0)
+
+<sup>Released on **2023-12-02**</sup>
+
+#### ✨ Features
+
+- **misc**: Add plugin meta in manifest.json.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add plugin meta in manifest.json ([5d08e79](https://github.com/lobehub/chat-plugin-search-engine/commit/5d08e79))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.4.9](https://github.com/lobehub/chat-plugin-search-engine/compare/v1.4.8...v1.4.9)
 
 <sup>Released on **2023-10-12**</sup>
