@@ -17,6 +17,12 @@
     }
   ],
   "identifier": "search-engine",
+  "meta": {
+    "avatar": "🔍",
+    "tags": ["web", "search"],
+    "title": "Search Engine",
+    "description": "Query search engine to get information"
+  },
   "settings": {
     "type": "object",
     "required": ["SERPAPI_API_KEY"],
