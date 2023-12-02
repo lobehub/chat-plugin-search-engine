@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/chat-plugin-search-engine",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": true,
   "description": "This plugin allows for the use of the SerpApi search engine",
   "homepage": "https://github.com/lobehub/chat-plugin-search-engine",
