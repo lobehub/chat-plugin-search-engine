@@ -12,7 +12,8 @@ const listRender = (item: any) => <ListItem {...item} />;
 const gridRender = (item: any) => <GridItem {...item} />;
 
 const Render = memo<PluginRenderProps<Result>>(({ content }) => {
-  const [grid, setGrid] = useState(false);
+  const showStyle = content.show_style;
+  const [grid, setGrid] = useState(showStyle === 'grid');
   return (
     <Flexbox gap={6}>
       <Flexbox horizontal>
@@ -22,7 +23,7 @@ const Render = memo<PluginRenderProps<Result>>(({ content }) => {
       <SpotlightCard
         columns={grid ? '1fr 1fr 1fr' : '1fr'}
         gap={grid ? 8 : 6}
-        items={content}
+        items={content.search_items}
         renderItem={grid ? gridRender : listRender}
       />
     </Flexbox>
