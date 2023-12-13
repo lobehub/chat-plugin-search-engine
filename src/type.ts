@@ -10,7 +10,10 @@ export interface SearchItem {
   title: string;
 }
 
-export type Result = SearchItem[];
+export interface Result {
+  search_items: SearchItem[];
+  show_style?: string;
+}
 
 interface OrganicResult {
   about_page_link: string;
