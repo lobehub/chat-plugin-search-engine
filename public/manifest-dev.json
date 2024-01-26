@@ -18,6 +18,12 @@
   ],
   "gateway": "http://localhost:3400/api/gateway",
   "identifier": "searchEngine-dev",
+  "meta": {
+    "avatar": "🔍",
+    "tags": ["web", "search"],
+    "title": "Search Engine (dev)",
+    "description": "Query search engine to get information"
+  },
   "settings": {
     "type": "object",
     "required": ["SERPAPI_API_KEY"],
@@ -29,6 +35,12 @@
         "minLength": 64,
         "maxLength": 64,
         "format": "password"
+      },
+      "SHOW_STYLE": {
+        "title": "Searched items show style | 搜索结果展示风格",
+        "description": "default: list view | 默认: 列表视图",
+        "type": "string",
+        "enum": ["grid", "list"]
       }
     }
   },
